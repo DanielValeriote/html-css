@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: #adffbe;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#principal{
+    color: #ffff;
+    border-radius: 30px;
+    max-width: 550px;
+    margin: auto;
+    background: #257A37;
+    text-align: center;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    text-decoration: none;
+}
+#principal:hover{
+    background: #103619;
+}
+
+.basico{
+    color: #497A54;
+}
+.intermediario{
+    color: #797a49;
+}
+.avançado{
+    color: #7a4949;
+}
+.bolt_text{
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+.destaque{
+    background: rgb(192, 250, 165);
+    width: 200px;
+}
+h1{
+    color: #00c92b;
+    font-size: 2em;
+}
+h2{
+    color: #497A54;
+}
