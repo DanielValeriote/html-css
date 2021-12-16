@@ -17,22 +17,31 @@
 
         table {
             border-collapse: collapse;
-
         }
-
+        
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        table caption {
+            border-radius: 0px 10px 0px 0px;
+            padding: 10px;
+            border: 1px solid black;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: rgb(190, 190, 190);
         }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Unidade federativa</th>
-                <th>População</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col" style="width: 120px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -63,7 +72,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de habitantes:</td>
+                <th scope="row">Total de habitantes:</th>
                 <td align="center"><strong>...</strong></td>
             </tr>
         </tfoot>
