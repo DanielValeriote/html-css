@@ -59,28 +59,18 @@ header > p {
 .nav-list {
     list-style: none;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.nav-list > a:visited{
+.nav-list li:hover {
+    color: #3cd882;
+}
+
+.nav-list li:visited{
     color: white;
 }
-
-.headerLink{
-    padding: 12px;
-    transition-duration: 0.5s;
-}
-
-.headerLink > a:visited:hover{
-    color: #03672f;
-    
-}
-.headerLink:hover{
-    background-color: #369c66;
-    border-radius: 5px;
-    color: #03672f;
-    transition-duration: .5s;
-}
-
 
 main{
     background-color: white;
