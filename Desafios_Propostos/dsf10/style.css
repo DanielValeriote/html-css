@@ -51,7 +51,17 @@ header a{
     text-decoration: none;
     color: white;
 }
-.headerLink > a:visited{
+
+header > p {
+    margin: 15px 0px;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list > a:visited{
     color: white;
 }
 
@@ -136,12 +146,12 @@ main a{
     content: " 🔗";
 }
 
-ul {
+.android-versions-list {
     list-style: none;
     display: inline;
 }
 
-ul li:before {
+.android-versions-list li:before {
     content: '✔ ';
 }
 
