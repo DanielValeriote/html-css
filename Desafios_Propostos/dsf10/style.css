@@ -1,5 +1,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -8,49 +11,20 @@
     format("opentype");
 }
 
-@media screen and (max-width: 500px){
-    header nav p a span{
-        display: block;
-        text-align: center;
-    }
-    main div picture img{
-        width: 100%;
-    }
-}
-@media screen and (min-width: 650px){
-    .divList{
-        width: 250px;
-        display: inline-block;
-        text-align: justify;
-    }
-    .divList2{
-        padding-left: 150px;
-        width: 250px;
-        display: inline-block;
-    }
-    .divList, .divList2{
-        padding: 15px;
-    }
-    .learnMore{
-        padding-right: 15px;
-    }
-}
-
 body{
     color: black;
     background-color: #84e1ad;
-    ;
+    width: 100%;
+    min-height: 100vh;
 }
 
 header{
-    font-size: 1.1em;
+    font-size: 1.1rem;
     text-shadow: 1px 1px 3px black;
     box-shadow: 0px 0px 10px black;
-    padding: 3px;
-    margin: -8px -8px 10px -8px;
+    padding: 20px;
     background-image: linear-gradient(to bottom, #3cda83, #195b37);
     color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-align: center;
 }
 
@@ -114,9 +88,9 @@ main p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-indent: 30px;
-    font-size: 17px;
+    font-size: 1.1rem;
     text-align: justify;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 .imagem {
@@ -146,6 +120,7 @@ main a{
 .learnMore > h3{
     color: white;
     background-color: #195b37;
+    width: 100%;
 }
 
 .links{
@@ -164,12 +139,11 @@ main a{
 ul {
     list-style: none;
     display: inline;
-  }
-      
+}
 
-  ul li:before {
+ul li:before {
     content: '✔ ';
-  }
+}
 
 .underlined{
     text-decoration: underline;
@@ -177,7 +151,6 @@ ul {
 
 .divList2{
     display: inline-block
-    
 }
 
 .learnMore{
@@ -185,12 +158,14 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-indent: 15px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.404);
     border-radius: 10px;
     padding-bottom: 10px;
+    margin: 20px 0px;
 }
+
 .learnMore > p{
-    padding-left: 10px;
+    padding: 10px;
 }
 
 h3{
@@ -211,4 +186,40 @@ body > footer{
 }
 .negrito{
     font-weight: bold;
+}
+
+@media screen and (max-width: 500px){
+    html {
+        font-size: 14px;
+    }
+    header nav p a span{
+        display: block;
+        text-align: center;
+    }
+    main {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    main div picture img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 650px){
+    .divList{
+        width: 250px;
+        display: inline-block;
+        text-align: justify;
+    }
+    .divList2{
+        padding-left: 150px;
+        width: 250px;
+        display: inline-block;
+    }
+    .divList, .divList2{
+        padding: 15px;
+    }
+    .learnMore{
+        padding-right: 15px;
+    }
 }
