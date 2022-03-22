@@ -149,6 +149,12 @@ article a{
     text-decoration: underline;
 }
 
+.lists-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .divList2{
     display: inline-block
 }
