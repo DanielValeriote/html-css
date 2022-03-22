@@ -139,6 +139,7 @@ article a{
 .android-versions-list {
     list-style: none;
     display: inline;
+    margin: 0 auto;
 }
 
 .android-versions-list li:before {
@@ -151,8 +152,9 @@ article a{
 
 .lists-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    gap: 25px;
 }
 
 .divList2{
@@ -211,17 +213,7 @@ body > footer{
     }
 }
 @media screen and (min-width: 650px){
-    .divList{
-        width: 250px;
-        display: inline-block;
-        text-align: justify;
-    }
-    .divList2{
-        padding-left: 150px;
-        width: 250px;
-        display: inline-block;
-    }
-    .divList, .divList2{
-        padding: 15px;
+    .lists-container {
+        flex-direction: row;
     }
 }
