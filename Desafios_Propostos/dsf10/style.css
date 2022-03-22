@@ -72,7 +72,7 @@ header > p {
     color: white;
 }
 
-main{
+article{
     background-color: white;
     font-family: idroid;
     color: #1d5d3a;
@@ -84,7 +84,7 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
-main p{
+article p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-indent: 30px;
@@ -98,7 +98,7 @@ main p{
     max-width: 100%;
 }
 
-main .video{
+article .video{
     max-width: 100%;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.534);
 }
@@ -112,7 +112,7 @@ main .video{
     max-width: 100%;
 }
 
-main a{
+article a{
     color: #195b37;
     text-decoration: none;
 }
