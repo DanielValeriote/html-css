@@ -206,7 +206,7 @@ body > footer{
         width: 100%;
         max-width: 100%;
     }
-    main div picture img{
+    article div picture img{
         width: 100%;
     }
 }
