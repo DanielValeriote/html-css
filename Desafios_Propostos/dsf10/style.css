@@ -28,17 +28,16 @@ header{
     text-align: center;
 }
 
-main h1{
+article h1{
     font-family: idroid;
     font-weight: normal;
 }
 
-main h2{
+article h2{
     font-weight: normal;
     font-family: idroid;
     background-image: linear-gradient(to right, #7ad9a8, white);
 }
-
 
 header > nav{
     color: white;
@@ -80,7 +79,7 @@ article{
     max-width: 85%;
     margin: auto;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.514);
-    padding: 15px;
+    padding: 35px 15px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -89,7 +88,7 @@ article p{
     color: black;
     text-indent: 30px;
     font-size: 1.1rem;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 2rem;
 }
 
@@ -107,6 +106,7 @@ article .video{
     background-color: #195b37;
     text-align: center;
     padding: 20px 0px;
+    margin: 20px 0px;
 }
 .video iframe{
     max-width: 100%;
@@ -203,7 +203,7 @@ body > footer{
         display: block;
         text-align: center;
     }
-    main {
+    article {
         margin: 0;
         width: 100%;
         max-width: 100%;
@@ -215,5 +215,6 @@ body > footer{
 @media screen and (min-width: 650px){
     .lists-container {
         flex-direction: row;
+        margin: 30px 0px;
     }
 }
