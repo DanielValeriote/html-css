@@ -155,6 +155,7 @@ article a{
     flex-direction: column;
     justify-content: space-evenly;
     gap: 25px;
+    margin: 20px 0px;
 }
 
 .divList2{
